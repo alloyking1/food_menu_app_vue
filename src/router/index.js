@@ -18,7 +18,7 @@ const router = createRouter({
     },
 
     {
-      path: '/letter/:val',
+      path: '/letter/:letter',
       name: 'LetterLink',
       component: () => import('../components/pages/LetterLink.vue')
     },
