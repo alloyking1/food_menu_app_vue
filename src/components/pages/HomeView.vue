@@ -5,7 +5,7 @@
         class="w-full rounded border-gray-200"
         placeholder="Enter Search text..">
         <div class="mt-4 flex justify-center">
-            <router-link to="/" v-for="letter of letters" class="px-2 text-gray-500">
+            <router-link :to="{name:'LetterLink', params:{val}}" v-for="letter of letters" :key="letter" class="px-2 text-gray-500">
                 {{ letter }}
             </router-link>
        </div>
