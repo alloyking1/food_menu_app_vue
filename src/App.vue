@@ -4,13 +4,15 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div class="wrapper">
+    <div class="bg-white shadow py-6">
       <nav>
-        <!-- <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink> -->
+        <router-link :to="{name:'home'}"/>Home</router-link>
       </nav>
     </div>
   </header>
+  <div>
+    <RouterView />
+  </div>
 
-  <RouterView />
+  
 </template>

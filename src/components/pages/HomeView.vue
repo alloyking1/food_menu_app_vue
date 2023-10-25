@@ -12,7 +12,7 @@
        </div>
 
        <div class="grid grid-cols-3 gap-3 mt-16">
-            <pre>{{ apiRequest }}</pre>
+            <pre>{{ apiRequest  }}</pre>
            <div class="border-gray-400 shadow rounded pl-6">
             <img src="" alt="">
             <div class="text-sm p-2 text-gray-500">
